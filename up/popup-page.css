@@ -1,0 +1,19 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.push-popup__success {
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.push-popup__success.active {
+    display: flex;
+}
+
+.push-popup__success-img {
+    margin: 10px 0;
+}

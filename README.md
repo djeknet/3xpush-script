@@ -15,6 +15,7 @@ Easy setup and go. You only need:
 - PHP >5.6 mith mysqli
 - Mysql
 - SSL Wildcard certificate
+- Memcache
 
 After installation you can subscribe users on push notifications and send them your sending by one click!
 
@@ -36,4 +37,36 @@ You can see statistic by:
 - browsers
 - feeds
 
-11 partner feeds already added in db, you only need to write your unique link and then you can earn money for each click on push ads notification! And your partners will get their affiliate percentage that you specify in the settings.
+11 partner feeds already added in db, you only need to sign up in them and get your unique link. And then you can earn money for each click on push ads notification! And your partners will get their affiliate percentage that you specify in the settings.
+
+Available languages: English, Русский
+
+**Modules:**
+
+- Dashboard
+- Sites
+- Traffic exchange
+- Send push
+- Statistics
+- Accounts
+- Referrals
+- Settings
+- Q&A
+
+**Admin:**
+
+- Users
+- Withdrawals
+- Mails
+- Q&A
+- News
+- Landings
+- Reports
+- Journal
+- Content
+- Crons
+- Analytics
+- Feeds
+- System settings
+
+**Follow installation instruction in file INSTALLATION.pdf or УСТАНОВКА.pdf**

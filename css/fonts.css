@@ -1,0 +1,81 @@
+/** fonts Poppins-Bold **/
+@font-face {
+	font-family: 'Poppins-Bold';
+	src: local('☺'), url('../fonts/Poppins-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: local('☺'), url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Poppins-SemiBold';
+	src: local('☺'), url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: local('☺'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: local('☺'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Black';
+	src: local('☺'), url('../fonts/Roboto-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Light';
+	src: local('☺'), url('../fonts/Roboto-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Italic';
+	src: local('☺'), url('../fonts/Roboto-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: local('☺'), url('../fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoCondensed-Bold';
+	src: local('☺'), url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PT_Sans-Narrow-Web-Bold';
+	src: local('☺'), url('../fonts/PT_Sans-Narrow-Web-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato-Regular';
+	src: local('☺'), url('../fonts/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato-Bold';
+	src: local('☺'), url('../fonts/Lato-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+

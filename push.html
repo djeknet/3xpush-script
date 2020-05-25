@@ -1,0 +1,29 @@
+﻿<head>
+<title>Push https preview</title>
+</head>
+<body>
+<script>
+psx_host = 'cenadojs.me';
+psx_site_id = '262';
+psx_sub_id = ''; // дополнительный идентификатор источника
+psx_tag = 'test'; // тэг подписчика
+psx_time = '1000'; // пауза перед показом уведомления в мс
+blocksite = 1; // 1 - закрывать сайт блоком с сообщением о подписке
+hasBlockCross = 1; // 1 - выводить крестик для закрытия блока
+blockText = 'Test text'; // текст в закрывающем блоке
+redirect_url = 'http://google.com'; // URL на который перекинет пользователя после подписки
+block_url = 'http://youtube.com'; // URL на который перекинет пользователя после отказа от подписки
+(function(d){let s=d.createElement('script');s.async=true;s.src='https://'+psx_host+'/new.js';d.head.appendChild(s);})(document);
+</script>
+
+<style>
+.text {
+display: block;
+font: 22px tahoma;
+text-align: center;
+margin-top: 10%;
+}
+</style>
+<div class=text>Push Subscription Example <br>Пример работы push-подписки. </div>
+
+</body>

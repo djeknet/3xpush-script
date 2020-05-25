@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Push popup</title>
+</head>
+<body>
+<script> 
+'use strict'; 
+let psx_host = 'demo.mypushadmin.com', 
+s = document.createElement('script'); 
+s.src="https://"+psx_host+"/up/push-popup.js"; 
+document.getElementsByTagName('head')[0].appendChild(s); 
+let psx_site_id = '5', 
+psx_sub_id = ''; // свободный параметр, только цифры 
+</script>
+<div>
+<h1>Пример работы Push подписки для http сайтов через popup с подпиской.</h1>
+
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+
+<div class="push-popup">
+ <div class="push-popup__subscribe active">
+ <div class="push-popup__text">Будьте в курсе последних обновлений, подпишитесь на обновления сайта</div>
+ <div class="push-popup__subscribe-bottom">
+ <button type="button" class="push-popup__subscribe-btn">Подписаться</button>
+ <span class="push-popup__subscribe-separator">или</span> <span class="push-popup__subscribe-cancel">Отменить</span>
+ </div></div></div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="popup-page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Push subscribe</title>
+</head>
+<body>
+
+<script>
+    'use strict';
+    let s = document.createElement('script'),
+        fb = document.createElement('script');
+
+    fb.src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js";
+    document.getElementsByTagName('head')[0].appendChild(fb);
+
+    s.src="https://"+ location.host +"/up/popup-script.js?v=0.0.1";
+    document.getElementsByTagName('head')[0].appendChild(s);
+</script>
+
+<div class="push-popup__success">
+    <div class="push-popup__text">
+        Thanks!
+    </div>
+    <div class="push-popup__success-img">
+        <img src="push-popup-success.png" alt="Спасибо за подписку">
+    </div>
+    <div class="push-popup__text">
+        The window will close automatically
+    </div>
+</div>
+
+</body>
+</html>

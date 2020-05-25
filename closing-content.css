@@ -1,0 +1,38 @@
+.closing-content {
+    position: relative;
+}
+
+.closing-content__overlay {
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+    background: rgba(0, 0, 0, .9);
+    transition: 1s ease;
+}
+
+.closing-content__overlay.active {
+    opacity: 1;
+
+    display: flex;
+}
+
+.closing-content__text {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.closing-content__subscribe {
+    text-decoration: underline;
+    cursor: pointer;
+}

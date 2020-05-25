@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8">
+	<title>Push redirect links preview</title>
+</head>
+<body>
+<script>
+'use strict';
+let psx_host = 'cenadojs.me',
+s = document.createElement('script');
+s.src="https://"+psx_host+"/links.js";
+document.getElementsByTagName('head')[0].appendChild(s);
+let site_id = '296',
+sub_id = '',
+tag = 'test', 
+repeat = '1',
+fon ='',
+text ='Addition text', 
+type = 0, 
+filename = 'тест'
+</script>
+
+<div><b>Example redirect links through a push subscription<br>
+Пример работы редиректа ссылок через Push-подписку</b><br><br>
+- <a href="https://3xpush.com/admin/images/logo.png" class="redirect-link" target=_blank>File link</a><br><br>
+- <a href="https://3xpush.com/empty.torrent" class="redirect-link" target=_blank>Torrent file</a><br><br>
+- <a href="https://3xpush.com/empty.zip" class="redirect-link" target=_blank>Zip file</a><br><br>
+
+<div id="push_links">
+    - <a href="https://www.google.ru/search?q=3xpush&aqs=chrome..69i57j69i60j69i61j0l3.487j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><b>Link to an external site</b></a><br><br>
+</div>
+After subscribing you will be redirected to the link, if you refuse, the page will be updated until you subscribe. For example, 2 subscription retries are set. For the link, the right mouse click is disabled to exclude the possibility of copying the link. <br> <br> 2 connection options:
+<ul><li>adding a class to the link <b>class="redirect-link"</b></li>
+<li>add container <b>&lt;div id="push_links"&gt;</b>, for group redirect stand</li></ul>
+<hr>
+После подписки вас перекинет на ссылку, если откажитесь, то страница будет обновляться, пока не подпишетесь. Для примера выставлено 2 повтора подписки. Для ссылки отключается правый клик мыши, чтобы исключить возможность копирования ссылки.<br><br>2 варианта подключения:
+<ul><li>добавление к ссылке класса <b>class="redirect-link"</b></li>
+<li>добавление контейнера <b>&lt;div id="push_links"&gt;</b>, для групповой подставки редиректа</li></ul>
+</div>
+
+</body>
