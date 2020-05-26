@@ -34,7 +34,7 @@
   PRIMARY KEY (`id`),
   UNIQUE KEY `login` (`login`),
   KEY `cc` (`cc`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 
 DROP TRIGGER IF EXISTS `balanse`;

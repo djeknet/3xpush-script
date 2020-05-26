@@ -181,7 +181,7 @@ status($stop, 'danger');
                                 if ($edit_data[$edit_form]['send_chat']==1) $send_chat = "checked";
                                  
                             } else {
-                                $titles='';$content='';
+                                $titles=array();$content=array();
                                 $arr = array_flip(explode(',', $settings['langs']));
                                 foreach ($arr as $key => $value) {
                                 $titles[$key] = ''; 

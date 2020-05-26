@@ -175,7 +175,7 @@ status($stop, 'danger');
                                 $type_sel[$type] = 'selected';
                                 
                             } else {
-                                $titles='';$answers='';
+                                $titles=array();$answers=array();
                                 $arr = array_flip(explode(',', $settings['langs']));
                                 foreach ($arr as $key => $value) {
                                 $titles[$key] = ''; 
@@ -188,11 +188,6 @@ status($stop, 'danger');
 <a href="#" id="show_form" class="btn btn-link"><i class="fa fa-<?php echo $icon ?>"></i>&nbsp;<?php echo $title_form." "._ANSWER; ?></a>
 <form action="?m=a_faq" method="post" id=form  enctype="multipart/form-data"<?php echo !$save && !$edit_form ? ' style="display: none"' : ''?>>
   <table border="0" width="100%" cellspacing="0" cellpadding="3" align="center">
-  <tr><td width="20%" valign=top><?php echo _FOR_WHO; ?></td><td><select size="1" name="type">
-<option value="all" <?php echo $type_sel['all']; ?>><?php echo _EVERY ?></option>
-<option value="adv" <?php echo $type_sel['adv']; ?>><?php echo _ADVERT ?></option>
-<option value="wm" <?php echo $type_sel['wm']; ?>><?php echo _WEBMASTER ?></option>
-</select></td></tr>
                 <tr><td width="20%" valign=top><?php echo _QUESTION; ?></td><td>
                  <?php
                  foreach ($titles as $key => $value) {

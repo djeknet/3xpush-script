@@ -54,7 +54,8 @@ $tag = text_filter($_GET['tag']);
 $price = text_filter($_GET['price']);
 if (!$price) $price=0;
 $settings = settings();
-$host = get_host();
+//$host = get_host();
+$host = $settings['domain_link'];
 
 if ($id || $test==1) {
 if ($dev==1) {

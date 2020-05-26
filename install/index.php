@@ -222,7 +222,7 @@ $dbname= text_filter($_POST['dbname']);
 $global_secret= text_filter($_POST['global_secret']);
 $memcache_master_ip= text_filter($_POST['memcache_master_ip']);
 $memcache_master_port= text_filter($_POST['memcache_master_port']);
-$timezone= text_filter($_POST['timezone']);
+$timezone= text_filter($_POST['timezone'], 2);
 $root= text_filter($_POST['root']);
 if (!$root) $root = '/';
 

@@ -1415,6 +1415,9 @@ function text_filter($message, $type = "")
     {   
         $message = strip_tags(urldecode($message));
         $message = htmlspecialchars(trim($message), ENT_QUOTES);
+    } elseif (intval($type) == 3)
+    {   
+        $message = htmlspecialchars(trim($message), ENT_QUOTES);
     } else
     {   
         $message = sql_filter($message);

@@ -49,7 +49,7 @@ $land_delete = intval($_REQUEST['land_delete']);
 $newcategory = text_filter($_REQUEST['newcategory']);
 if ($newcategory) $category = $newcategory;
 
-$html = isset($_REQUEST['editorHTML']) ? text_filter($_REQUEST['editorHTML'], 2) : '';
+$html = isset($_REQUEST['editorHTML']) ? text_filter($_REQUEST['editorHTML'], 3) : '';
 
 if ($land_delete && $check_login['role'] == 1) {
     $db->sql_query("DELETE FROM landings WHERE id=" . $land_delete . "");// or $stop = mysqli_error();  

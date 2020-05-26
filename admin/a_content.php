@@ -49,7 +49,7 @@ $name = text_filter($_POST['name']);
 $pageurl = text_filter($_POST['pageurl']);
 $newtype = text_filter($_POST['newtype']);
 if ($newtype) $type = $newtype;
-$code = text_filter($_POST['code'], 2);
+$code = text_filter($_POST['code'], 3);
 $tab = isset($_REQUEST['tab']) ? $_REQUEST['tab'] : 1;
 
 
@@ -247,7 +247,7 @@ status($stop, 'danger');
                                 $content = json_decode($content, true);
                                 $statussel[$status] = 'checked';
                             } else {
-                                $titles='';$content='';
+                                $titles=array();$content=array();
                                 $arr = array_flip(explode(',', $settings['langs']));
                                 foreach ($arr as $key => $value) {
                                 $titles[$key] = ''; 

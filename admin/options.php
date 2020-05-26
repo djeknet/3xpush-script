@@ -48,7 +48,7 @@ $withdrowal = intval($_POST['withdrowal']);
 $autorefill = intval($_POST['autorefill']);
 $texts = $_POST['texts'];
 
-if ($save_payments) {
+if ($save_payments && $check_login['role']==1) {
   if (!$title || !$minsumma || !$score) $stop = _INSTALL21;
 
 foreach ($texts as $key => $value) {
