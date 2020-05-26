@@ -9,6 +9,7 @@ This script allow you to open your own affiliate program, collect push subscribe
 
 And monetize with other afiliate push ads networks!
 
+
 Easy setup and go. You only need:
 
 - server with minimum 16 Gb operating memory
@@ -70,3 +71,7 @@ Available languages: English, Русский
 - System settings
 
 **Follow installation instruction in file INSTALLATION.pdf or УСТАНОВКА.pdf**
+
+**Demo - https://script.3xpush.com/admin/index.php**
+Login: guest
+Pass: guest
