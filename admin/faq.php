@@ -76,15 +76,13 @@ return false;
 <?php
  if(is_array($faq)) {
     foreach ($faq as $key => $value) {
-       if ($value['type']=='wm') {
         $titles = json_decode($value['title'], true);
-        $answers = json_decode($value['answer'], true);
-        $wm=1;               
+        $answers = json_decode($value['answer'], true);             
         echo "<div class=faq-block><span><i class=\"fa fa-question-circle\"></i> ".$titles[$lang]."</span><div class=faq>".$answers[$lang]."</div></div>";
-       }
     }
+ } else {
+     status(_NOTHINGFOUND, 'info');
  } 
-  if ($wm!=1)  status(_NOTHINGFOUND, 'info');
  
 ?>
         

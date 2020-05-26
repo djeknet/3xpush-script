@@ -846,7 +846,7 @@ function total_stat($where='') {
 $sql = "SELECT * FROM total_stat WHERE 1 ".$where."";
 $stat = $db->sql_query($sql);
 $stat = $db->sql_fetchrowset($stat);
- if (count($stat)>0) {
+ if (is_array($stat)) {
 
     $data = array();
     foreach ($stat as $row => $value) {
