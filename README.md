@@ -1,11 +1,11 @@
-# 3xpush Script - Push Subscription Management System 
+# 3x Push Script - Push Subscription Management System 
 
 > Copyright 2020 Evgeniy Orel
 > Site: https://script.3xpush.com/
 > Email: script@3xpush.com
 > Telegram: @Evgenfalcon
 
-This script allow you to open your own affiliate program, collect push subscribers
+This push script allow you to open your own affiliate program, collect push subscribers
 
 And monetize with other afiliate push ads networks!
 
@@ -18,7 +18,7 @@ Easy setup and go. You only need:
 - SSL Wildcard certificate
 - Memcache
 
-After installation you can subscribe users on push notifications and send them your sending by one click!
+After installation push script you can subscribe users on push notifications and send them your sending by one click!
 
 Also your users can traffic exchange using sending function.
 
@@ -75,3 +75,5 @@ Available languages: English, Русский
 **Demo - https://script.3xpush.com/admin/index.php**
 Login: guest
 Pass: guest
+
+**push script**
